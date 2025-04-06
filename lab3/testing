@@ -1,0 +1,130 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link rel="stylesheet" href="cat.css" type="text/css"/>
+    <title>The Most Popular Cat Cafe</title>
+    <style type="text/css">
+        body { background-color: rgb(154, 190, 255); }
+        h1 { color: rgb(38, 92, 255); }
+        p { color: rgb(9, 9, 9); }
+    </style>
+</head>
+<body>
+    <h1>The Most Popular Cat Cafe</h1>
+    <p>Located in Brooklyn, <abbr title="New York City">NYC </abbr></p> 
+    
+    <div class="container">
+        <abbr title="Cat Cafe room">
+        <img src="https://www.brooklynpaper.com/wp-content/uploads/2023/05/cafe-interior_alexandra-steedman-1600x1430.jpg" Alt="Cat cafe room" width="400" height="400">  
+    </abbr>
+    <abbr title="Another look at the cafe">
+        <img src="https://bklyner.com/content/images/bklyner/wp-content/uploads/2019/02/497A2623.jpg" alt="Another look at the cafe" width="400" height="400">
+    </abbr>
+
+    <abbr title="Cat cafe sign ">
+        <img src="https://s3.amazonaws.com/tea-with-cats-production/images/images/000/000/115/original/brooklyn-cat-cafe-logo.png?1482370911" alt="Cat cafe sign" width="400" height="400">  
+    </abbr>
+<abbr title="Cats looking through window">
+        <img src="https://www.brooklynpaper.com/wp-content/uploads/2023/05/cafe-cats-looking-out-window-at-crowd_alexandra-steedman.jpg" alt="Cats looking through the window" width="400px" height="400px">
+    </abbr>
+
+    <abbr title="Stunning cat"> 
+        <img src="https://moderncat.com/wp-content/uploads/2022/10/CatCafe-IMG_2044-867x1024.jpeg" alt="Stunning cat" width="400" height="400">
+    </abbr>
+    </div>
+<br>
+ <h3>Click on each images to visit the Cafe</h3>
+    <h2>About Brooklyn's Cat Cafe</h2>
+    <p>123 jeirejj cats fjoeokeokf cats</p>
+</body>
+</html>
+
+
+
+css <code>
+    body { 
+        background-color: black;
+    }
+    
+    .container {
+        margin: 100px 0 0 200px;
+        width: 70%;
+        height: 450px; /* Added colon */
+        display: flex; /* Added colon */
+        justify-content: center; /* Added colon */
+        gap: 10px; /* Added semicolon */
+    }
+    
+    .container img {
+        width: 25%;
+        height: 500px;
+        object-fit: cover; /* Added semicolon */
+        border-radius: 10px; /* Fixed border radius */
+        border: 2px solid rgba(255, 255, 255, 0.684); /* Added semicolon */
+        transition: all ease-in-out 0.5s; 
+    }
+    
+    .container img:hover {
+        width: 50%;
+    }
+    
+</code>
+
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link rel="stylesheet" href="cat.css" type="text/css"/>
+    <title>The Most Popular Cat Cafe</title>
+    <style type="text/css">
+        body { 
+            background-color: rgb(154, 190, 255); 
+        }
+        h1 { 
+            color: rgb(38, 92, 255); 
+        }
+        p { 
+            color: rgb(9, 9, 9); 
+        }
+        img {
+            max-width: 100%; /* Make sure images are responsive */
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Most Popular Cat Cafe,</h1>
+    <p>Located in Brooklyn, <abbr title="New York City">NYC</abbr></p> 
+
+    <div class="container">
+      
+        <a href="https://catcafebk.com/reservations/" target="_blank" title="Cat Cafe Room">
+            <img src="https://www.brooklynpaper.com/wp-content/uploads/2023/05/cafe-interior_alexandra-steedman-1600x1430.jpg" alt="Cat cafe room" width="400" height="400">
+        </a>
+        
+        <a href="https://catcafebk.com/reservations/" target="_blank" title="Another Look at the Cafe">
+            <img src="https://bklyner.com/content/images/bklyner/wp-content/uploads/2019/02/497A2623.jpg" alt="Another look at the cafe" width="400" height="400">
+        </a>
+
+        <a href="https://catcafebk.com/" target="_blank" title="Cat Cafe Sign">
+            <img src="https://s3.amazonaws.com/tea-with-cats-production/images/images/000/000/115/original/brooklyn-cat-cafe-logo.png?1482370911"  width="500" height="500">
+        </a>
+
+        <a href="https://www.brooklynpaper.com/wp-content/uploads/2023/05/cafe-cats-looking-out-window-at-crowd_alexandra-steedman.jpg" target="_blank" title="Cats Looking Through Window">
+            <img src="https://www.brooklynpaper.com/wp-content/uploads/2023/05/cafe-cats-looking-out-window-at-crowd_alexandra-steedman.jpg" alt="Cats looking through the window" width="400px" height="400px">
+        </a>
+
+        <a href=https://catcafebk.com/our-cats/ target="_blank" title="Stunning Cat">
+            <img src="https://moderncat.com/wp-content/uploads/2022/10/CatCafe-IMG_2044-867x1024.jpeg" alt="Stunning cat" width="400" height="400">
+        </a>
+    </div>
+    <br>
+    <h3>Click on each image to visit the Cafe</h3>
+    <h2>About Brooklyn's Cat Cafe</h2>
+    <p>123 jeirejj cats fjoeokeokf cats</p>
+</body>
+</html>
