@@ -1,0 +1,26 @@
+body { 
+    background-color: black; 
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 80%;  
+    height: 450px;
+    display: flex;  
+    justify-content: center; 
+    gap: 2px;    
+}
+
+.container img {
+    width:60%;     
+    height: 500px;   
+    object-fit: cover; 
+    border-radius:80px;
+    border:8px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+       
+}
+
+.container img:hover {
+    width:100%;   /* commit file */
+}
